@@ -1,0 +1,224 @@
+﻿
+.div_planAnual {
+    margin:2% auto;
+    display:inline-block;
+    width:350px;
+    height:450px;
+    overflow:hidden;
+    /*border:dashed;*/
+}
+
+.div_planAnual_agregar {
+    margin:0% auto;
+    display:inline-block;
+    width:100%;
+    overflow:hidden;
+    /*border:dashed;*/
+}
+
+.headerDivider {
+     border-left:1px solid #979696; 
+     border-right:1px solid #979696; 
+     height:450px;
+     top:20px;
+}
+
+.btn_planAnual_cierre_abierto {
+    margin:2% auto;
+    color:white;
+    font-size:13px;
+    font-weight:bold;
+    background-color:red;
+    display:block;
+    border-radius:25px;
+    padding: 1% 2% 1% 2%;
+}
+
+.btn_planAnual_cierre_cerrado {
+    margin:2% auto;
+    color:white;
+    font-size:13px;
+    font-weight:bold;
+    background-color:green;
+    display:block;
+    border-radius:25px;
+    box-shadow:1px 1px 1px 1px rgba(0, 0, 0, 0.2);
+    padding: 1% 2% 1% 2%;
+}
+
+    .btn_planAnual_cierre_abierto:hover, .btn_planAnual_cierre_cerrado:hover {
+        cursor:pointer;
+        box-shadow:1px 1px 1px 1px rgba(0, 0, 0, 0);
+    }
+
+.cierre_green {
+    border-radius:25px;
+    margin:0 auto;
+    color: white;
+    background-color: green;
+    padding: 1% 2% 1% 2%;
+    display:block;
+}
+
+.cierre_gray {
+    border-radius:25px;
+    margin:0 auto;
+    color: white;
+    background-color: gray;
+    padding: 1% 2% 1% 2%;
+    display:block;
+}
+
+.cierre_green_lbl {
+    margin:2% auto;
+    margin-bottom:1%;
+    font-weight:bold;
+    color: green;
+    display:block;
+}
+
+.cierre_red_lbl {
+    margin:2% auto;
+    margin-bottom:1%;
+    font-weight:bold;
+    color: red;
+    display:block;
+}
+
+.cierre_yellow_lbl {
+    margin:2% auto;
+    margin-bottom:1%;
+    font-weight:bold;
+    color: #f18501;
+    display:block;
+}
+
+/******************************** Table cursos nuevos ********************************/
+.table_cursoNuevo {
+    margin: 0% auto;
+}
+
+    .table_cursoNuevo td {
+        padding-top: 15px;
+        /*border:dashed;*/
+    }
+
+    .table_cursoNuevo th {
+        margin-top: 2%;
+    }
+
+    .table_cursoNuevo span {
+        float:left;
+    }
+
+    .table_cursoNuevo input[type=text], .table_cursoNuevo textarea, .table_cursoNuevo input[type=number] {
+        font-size: 13px;
+        width: 129px;
+        margin-right: 10px;
+        margin-left: 10px;
+        padding-left: 3px;
+        transition: all .35s ease-in-out;
+        outline: thin;
+        border: 2px solid #cfcfcf;
+    }
+
+        .table_cursoNuevo input[type=text]:focus, .table_cursoNuevo textarea:focus, .table_cursoNuevo input[type=number]:focus {
+            box-shadow: 0 0 5px rgb(202,47,33);
+            border: 2px solid rgb(202,47,33);
+        }
+
+    .table_cursoNuevo select {
+        font-size: 13px;
+        width: 138px;
+        margin: 0% auto;
+        padding-left: 5px;
+        transition: all .35s ease-in-out;
+        outline: thin;
+        border: 2px solid #cfcfcf;
+        background-color:#f1f1f1;
+    }
+
+        .table_cursoNuevo select:focus {
+            box-shadow: 0 0 5px rgb(202,47,33);
+            border: 2px solid rgb(202,47,33);
+        }
+
+/******************************** End ********************************/
+
+/******************************** GridView Buscar Horarios ********************************/
+.grid_cursosActivos {
+    margin:0% auto;
+    font-family: Calibri Light;
+    text-align: center;
+    font-size: 14px;
+}
+    
+    /* FOR THE PAGING ICONS  **/
+    .grid_cursosActivos a {
+        color:#fff;
+        font-weight:bold;
+        background-color:transparent;
+        padding: 5px 5px 5px 5px;
+    }
+        
+        /** FOR THE PAGING ICONS  HOVER STYLES**/
+        .grid_cursosActivos a:hover {
+            background-color:#000;
+            color:#fff;
+        }
+
+    /** FOR THE PAGING ICONS CURRENT PAGE INDICATOR **/
+    .grid_cursosActivos span {
+        color:white;
+        /*background-color: #c9c9c9;*/
+        background-color: rgb(202,47,33);
+        padding: 5px 5px 5px 5px;
+    }
+
+    .grid_cursosActivos td {
+        padding-right:20px;
+        padding-left:20px;
+        border:none;
+    }
+
+    .grid_cursosActivos th {
+        padding-top:4px;
+        padding-bottom:8px;
+        border:none;
+    }
+
+.grid_cursosActivos_header {
+    font-size: 15px;
+    color: white;
+    height: 29px;
+    background-color: #646464;
+    border: none 0px transparent;
+}
+
+.grid_cursosActivos_row {
+    background-color: #fff;
+    border: none 0px transparent;
+}
+
+.grid_cursosActivos_altrow {
+    background-color:#ebeaea;
+    border:none 0px transparent;
+}
+
+.grid_cursosActivos_pager {
+    color:black;
+    font-size:14px;
+    text-align:center;
+    background-color: #646464;
+    /*border:none 0px transparent;*/
+}
+
+    .grid_cursosActivos_pager a {
+        text-decoration: none;
+    }
+
+    .grid_cursosActivos_pager td {
+        padding: 2px 2px 2px 2px;
+    }
+
+/******************************** End ********************************/

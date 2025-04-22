@@ -1,0 +1,89 @@
+﻿.initial_desarrollo {
+    /*display:block;*/
+    font-family: Calibri Light;
+    font-size: 17px;
+    font-weight: bold;
+    color: black;
+    padding: 4px 18px 4px 18px;
+    background: url(../../images/pestanas/InitialImage.png) no-repeat right top;
+    background-size: 100%;
+    outline: none;
+    border: none;
+    width: 270px;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+    outline: none;
+}
+
+    .initial_desarrollo:hover {
+        color: white;
+        background: url(../../images/pestanas/SelectedButton.png) no-repeat right top;
+        background-size: 100%;
+        width: 290px;
+    }
+
+.clicked_desarrollo {
+    font-family: Calibri Light;
+    font-size: 17px;
+    font-weight: bold;
+    color: black;
+    background: url(../../images/pestanas/SelectedButton.png) no-repeat right top;
+    background-size: 100%;
+    padding: 4px 18px 4px 18px;
+    border: none;
+    cursor: pointer;
+    width: 290px;
+    outline: none;
+}
+
+.pop_up_guardar_colonia {
+    width: 270px;
+    height: 120px;
+    border-radius: 19px;
+    z-index: 9002;
+    background-color: white;
+    outline: none;
+    box-shadow: 0px 0px 0px 4px rgb(202,47,33), 0px 0px 12px 10px #484848;
+    opacity: 1;
+    text-align:center;
+    /*transition: 2s all ease;*/
+}
+
+.pop_up_guardar_calle {
+    width: 270px;
+    height: 120px;
+    border-radius: 19px;
+    z-index: 9002;
+    background-color: white;
+    outline: none;
+    box-shadow: 0px 0px 0px 4px rgb(202,47,33), 0px 0px 12px 10px #484848;
+    opacity: 1;
+    text-align: center;
+    /*transition: 2s all ease;*/
+}
+
+.pop_up_guardar_codigoPostal {
+    width: 270px;
+    height: 120px;
+    border-radius: 19px;
+    z-index: 9002;
+    background-color: white;
+    outline: none;
+    box-shadow: 0px 0px 0px 4px rgb(202,47,33), 0px 0px 12px 10px #484848;
+    opacity: 1;
+    text-align: center;
+    /*transition: 2s all ease;*/
+}
+
+.pop_up_guardar_prefijo {
+    width: 270px;
+    height: 120px;
+    border-radius: 19px;
+    z-index: 9002;
+    background-color: white;
+    outline: none;
+    box-shadow: 0px 0px 0px 4px rgb(202,47,33), 0px 0px 12px 10px #484848;
+    opacity: 1;
+    text-align: center;
+    /*transition: 2s all ease;*/
+}

@@ -1,0 +1,431 @@
+﻿html, body {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    font-family: Calibri Light;
+    /*background-image:url(../images/background.png);*/
+    /*background-size:100%;*/
+    background: rgba(255,255,255,1);
+    background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(219,219,219,1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255,255,255,1)), color-stop(100%, rgba(219,219,219,1)));
+    background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(219,219,219,1) 100%);
+    background: -o-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(219,219,219,1) 100%);
+    background: linear-gradient(to bottom, rgba(255,255,255,1) 0%, rgba(219,219,219,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#dbdbdb', GradientType=0 );
+}
+
+.logo {
+    margin-top: 0.5%;
+    width: 12%;
+    border: none;
+}
+
+.logo:focus{
+    outline:none;
+}
+
+.right {
+    text-align: right;
+}
+
+#t1 {
+    font-size: 28px;
+    font-weight: bold;
+    position: absolute;
+    left: 2%;
+    bottom: 3%;
+    color: #FFF;
+    cursor: default;
+    /***** No select any text *****/
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    /***** End *****/
+    z-index: 2;
+}
+
+#contenedor {
+    width: 80%;
+    margin: 0% auto;
+    text-align: center;
+    overflow:hidden;
+    /*border:dashed;*/
+}
+
+#titulo {
+    font-family: Calibri Light;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 2%;
+    display: block;
+}
+
+.btn_guardarCancelar {
+    font-family: Calibri Light;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: darkgreen;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 2%;
+    padding-right: 2%;
+    border-radius: 10px;
+    color: white;
+    outline: none;
+    transition: 0.28s ease-in-out;
+    cursor: pointer;
+}
+
+    .btn_guardarCancelar:hover {
+        background-color: rgb(202,47,33);
+    }
+
+.btn_guardarCancelar_disabled {
+    font-family: Calibri Light;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: lightgrey;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 2%;
+    padding-right: 2%;
+    border-radius: 10px;
+    color: black;
+    outline: none;
+    transition: 0.28s ease-in-out;
+    cursor: pointer;
+}
+
+.btn_guardarCancelar_wide {
+    font-family: Calibri Light;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: darkgreen;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 2%;
+    padding-right: 2%;
+    border-radius: 10px;
+    color: white;
+    outline: none;
+    transition: 0.60s ease-in-out;
+    cursor: pointer;
+    width: 200px;
+}
+    .btn_guardarCancelar_wide:hover {
+        background-color: rgb(202,47,33);
+        width: 250px;
+    }
+
+
+.btn_exportar {
+    font-family: Calibri Light;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: darkgreen;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 2%;
+    padding-right: 2%;
+    border-radius: 10px;
+    color: white;
+    outline: none;
+    transition: 0.28s ease-in-out;
+    cursor: pointer;
+}
+
+    .btn_exportar:hover {
+        background-color: rgb(202,47,33);
+    }
+
+#nombreUsuario {
+    position: absolute;
+    font-size: 19px;
+    font-weight: bold;
+    top: 5%;
+    right: 2%;
+}
+
+.RegularValidator {
+    font-family: Calibri Light;
+    font-weight:bold;
+    color:red;
+}
+
+.RequiredValidator {
+    font-family: Calibri Light;
+    font-weight:bold;
+    color:red;
+}
+
+.cerrar_sesion {
+    white-space:normal; /* Poner el texto en dos lineas */
+    width:7%;
+    height:12%;
+    border-radius:50%;
+    padding-top:1%;
+    padding-bottom:1%;
+    box-shadow:0px 5px 10px black;
+    position:absolute;
+    right:1.5%;
+    bottom:1%;
+    z-index:3;
+    font-size:18px;
+    font-weight:bold;
+    font-family:Calibri Light;
+}
+
+    .cerrar_sesion:focus {
+        outline:none !important;
+    }
+
+.btn_gridview_eliminar {
+    color:white;
+    font-weight:bold;
+    background-color:rgb(202,47,33);
+    font-size:12px;
+    padding: 2%, 4%, 2%, 4%;
+    box-shadow:1px 1px 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+    .btn_gridview_eliminar:hover {
+        cursor: pointer;
+        box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0);
+    }
+
+/********************************************* Footer WebApp *************************************/
+.triangulo-equilatero-bottom-right {
+     width: 0%;
+     height: 0%;
+     border-right: 0em solid rgb(114,12,12);
+     border-top: 0em solid transparent;
+     border-left: 60em solid transparent;
+     border-bottom: 100px solid rgb(114,12,12);
+     position:absolute;
+     bottom:0;
+     right:0;
+     z-index:2;
+}
+
+.triangulo-equilatero-bottom-left {
+     width: 0%;
+     height: 0%;
+     border-right: 60em solid transparent;
+     border-top: 0em solid transparent;
+     border-left: 0em solid rgb(202,47,33);
+     border-bottom: 90px solid rgb(202,47,33);
+     position:absolute;
+     bottom:0;
+}
+/********************************************* End *************************************/
+
+/************************************* Tablas Registrar *************************************/
+.tabla_registrar {
+    margin: 2% auto;
+    margin-bottom:-15px;
+    /*border: dashed;*/
+}
+
+    .tabla_registrar td {
+        padding-bottom: 4%;
+        /*border: dashed;*/
+    }
+
+    .tabla_registrar span {
+        font-size: 16px;
+        float: left;
+    }
+
+    .tabla_registrar td input[type=text] {
+        font-size: 15px;
+        width: 140px;
+        float: left;
+        margin-right: 10px;
+        margin-left: 10px;
+        padding-left: 5px;
+        transition: all .35s ease-in-out;
+        outline: thin;
+        border: 2px solid #cfcfcf;
+    }
+
+        .tabla_registrar td input[type=text]:focus {
+            box-shadow: 0 0 5px rgb(202,47,33);
+            border: 2px solid rgb(202,47,33);
+            /*border: 2px solid rgba(81, 203, 238, 1);*/
+        }
+
+    .tabla_registrar td input[type=date] {
+        font-size: 15px;
+        width: 140px;
+        float: left;
+        margin-right: 10px;
+        margin-left: 10px;
+        padding-left: 5px;
+        transition: all .35s ease-in-out;
+        outline: thin;
+        border: 2px solid #cfcfcf;
+        color: #484848;
+    }
+
+        .tabla_registrar td input[type=date]:focus {
+            box-shadow: 0 0 5px rgb(202,47,33);
+            border: 2px solid rgb(202,47,33);
+        }
+
+    .tabla_registrar td input[type=week] {
+        font-size: 15px;
+        width: 170px;
+        float: left;
+        margin-right: 10px;
+        margin-left: 10px;
+        padding-left: 5px;
+        transition: all .35s ease-in-out;
+        outline: thin;
+        border: 2px solid #cfcfcf;
+        color: #484848;
+    }
+
+        .tabla_registrar td input[type=week]:focus {
+            box-shadow: 0 0 5px rgb(202,47,33);
+            border: 2px solid rgb(202,47,33);
+        }
+
+    .tabla_registrar td input[type=number] {
+        font-size: 15px;
+        width: 140px;
+        float: left;
+        margin-right: 10px;
+        margin-left: 10px;
+        padding-left: 5px;
+        transition: all .35s ease-in-out;
+        outline: thin;
+        border: 2px solid #cfcfcf;
+        color: #484848;
+    }
+
+        .tabla_registrar td input[type=number]:focus {
+            box-shadow: 0 0 5px rgb(202,47,33);
+            border: 2px solid rgb(202,47,33);
+        }
+
+    .tabla_registrar td select {
+        font-size: 15px;
+        width: 140px;
+        float: left;
+        margin-right: 10px;
+        margin-left: 10px;
+        transition: all .35s ease-in-out;
+        outline: thin;
+        border: 2px solid #cfcfcf;
+        color: #484848;
+    }
+
+        .tabla_registrar td select:focus {
+            box-shadow: 0 0 5px rgb(202,47,33);
+            border: 2px solid rgb(202,47,33);
+        }
+
+.tituloTabla {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    font-weight: bold;
+}
+
+/************************************* FIN *************************************/
+
+/************************************* POPUP 2 *************************************/
+
+/* Popup container - can be anything you want */
+.popup {
+    font-family:Calibri Light;
+    font-weight:bold;
+    font-size:18px;
+    position: fixed;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+    top: 40%;
+    left: 0;
+}
+
+/* The actual popup */
+    .popup .popuptext {
+        background-color: rgb(202,47,33);
+        color: #fff;
+        width: 100%;
+        text-align: center;
+        padding: 8px 0;
+        position: absolute;
+        z-index: 1;
+        bottom: 125%;
+        left: 0%;
+        margin-left: 0px;
+    }
+
+/* Popup arrow */
+        .popup .popuptext::after {
+            content: "";
+            position: absolute;
+            top: 100%;
+            left: 50%;
+            margin-left: -5px;
+            border-width: 5px;
+            border-style: solid;
+            border-color: rgb(202,47,33) transparent transparent transparent;
+        }
+
+/* Toggle this class - hide and show the popup */
+    .popup .show {
+        visibility: visible;
+        -webkit-animation: fadeIn 1s;
+        animation: fadeIn 1s;
+    }
+
+/* Add animation (fade in the popup) */
+@-webkit-keyframes fadeIn {
+  from {opacity: 0;} 
+  to {opacity: 1;}
+}
+
+@keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity:1 ;}
+}
+/************************************* FIN POPUP 2 *************************************/
+
+
+#popUp_fortia {
+    /*position: absolute;*/
+    width: 90%;
+    height: 550px;
+    border-radius: 19px;
+    z-index: 9005;
+    background-color: white;
+    /*margin-top: 0%;
+    margin-left: 0%;*/
+    outline: none;
+    box-shadow: 0px 0px 0px 4px rgb(202,47,33), 0px 0px 12px 10px #484848;
+    opacity: 1;
+    /*background:url(../../images/logo.png) no-repeat;*/
+}
+
+
+.grid_popup_display_fortia {
+    width: 90%;
+    /*height: 380px;*/
+    /*border-radius: 19px;*/
+    z-index: 9005;
+    background-color: white;
+    /*margin-top: 0%;
+    margin-left: 0%;*/
+    outline: none;
+    /*box-shadow: 0px 0px 0px 4px rgb(202,47,33), 0px 0px 12px 10px #484848;*/
+    opacity: 1;
+}
