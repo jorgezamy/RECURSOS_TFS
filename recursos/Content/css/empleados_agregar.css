@@ -1,0 +1,163 @@
+﻿.titulo_agregar {
+    font-family:Calibri Light;
+    font-size:20px;
+    font-weight:bold;
+    text-align:left;
+    margin-top:2%;
+    margin-bottom:2%;
+    margin-left:9%;
+    display:block;
+}
+ 
+#NoReloj {
+    font-family: Calibri Light;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 2%;
+    display: block;
+}
+
+.empleado_exito {
+    font-family:Calibri Light;
+    font-size:20px;
+    font-weight:bold;
+    text-align:center;
+    margin:25% auto;
+    margin-bottom:5%;
+    line-height:40px;
+    display:block;
+    width:49%;
+}
+
+.empleado_exito_btn {
+    background-color: rgb(202,47,33);
+    color:white;
+    font-size:20px;
+    font-weight:bold;
+    font-family:Calibri Light;
+    border-radius:10px;
+    padding:2%;
+    border-color:#cfcfcf;
+    outline:none;
+    transition: 0.28s ease-in-out;
+}
+
+    .empleado_exito_btn:hover {
+        cursor: pointer;
+        background-color: white;
+        color: rgb(202,47,33);
+    }
+
+hr {
+    width: 100%;
+}
+
+/******************************** Table agregar empleados ********************************/
+#tb_add_emp, #tb_add_emp2, #tb_add_emp02, #tb_add_emp03 {
+    margin: 0 auto;
+    font-family: Calibri Light;
+}
+
+    #tb_add_emp td, #tb_add_emp2 td, #tb_add_emp02 td, #tb_add_emp03 td {
+        padding-bottom: 2%;
+    }
+
+        #tb_add_emp td span, #tb_add_emp2 td span, #tb_add_emp02 td span, #tb_add_emp03 td span {
+            font-size: 16px;
+            text-align: left;
+            float: right;
+        }
+
+        #tb_add_emp td input[type=text], #tb_add_emp2 td input[type=text], #tb_add_emp02 td input[type=text], #tb_add_emp03 td input[type=text] {
+            font-size: 15px;
+            width: 140px;
+            float: left;
+            margin-right: 10px;
+            padding-left: 5px;
+            transition: all .35s ease-in-out;
+            outline: thin;
+            border: 2px solid #cfcfcf;
+        }
+
+            #tb_add_emp td input[type=text]:focus, #tb_add_emp2 td input[type=text]:focus, #tb_add_emp02 td input[type=text]:focus, #tb_add_emp03 td input[type=text]:focus {
+                box-shadow: 0 0 5px rgb(202,47,33);
+                border: 2px solid rgb(202,47,33);
+                /*border: 2px solid rgba(81, 203, 238, 1);*/
+            }
+
+        #tb_add_emp2 td input[type=number], #tb_add_emp03 td input[type=number] {
+            font-size: 15px;
+            float: left;
+            margin-right: 10px;
+            padding-left: 5px;
+            transition: all .35s ease-in-out;
+            outline: thin;
+            border: 2px solid #cfcfcf;
+        }
+
+            #tb_add_emp2 td input[type=number]:focus, #tb_add_emp03 td input[type=number]:focus {
+                box-shadow: 0 0 5px rgb(202,47,33);
+                border: 2px solid rgb(202,47,33);
+            }
+
+        #tb_add_emp td #tb_nompat,  #tb_add_emp td #tb_nommat, #tb_add_emp2 td #tb_correo {
+            width: 300px;
+        }
+
+        #tb_add_emp2 td #tb_ingles,  #tb_add_emp2 td #tb_codpostDir {
+            width: 45px;
+        }
+
+        #tb_add_emp2 td #tb_numDir {
+            width:49px;
+        }
+
+        #tb_add_emp2 td #tb_curp, #tb_add_emp2 td #tb_rfc, #tb_add_emp2 td #tb_imss {
+            width:170px;
+        }
+
+        #tb_add_emp td input[type=date], #tb_add_emp2 td input[type=date], #tb_add_emp02 td input[type=date] {
+            transition: all .35s ease-in-out;
+            outline: thin;
+            border: 2px solid #cfcfcf;
+            width: 144px;
+            float: left;
+            color: #484848;
+        }
+
+            #tb_add_emp td input[type=date]:focus, #tb_add_emp2 td input[type=date]:focus, #tb_add_emp02 td input[type=date]:focus {
+                box-shadow: 0 0 5px rgb(202,47,33);
+                border: 2px solid rgb(202,47,33);
+            }
+
+        #tb_add_emp02 td #date_ServicioVig {
+            width:125px;
+        }
+
+        #tb_add_emp td input[type=radio], #tb_add_emp2 td input[type=radio], #tb_add_emp02 td input[type=radio] {
+            border-radius: 2px;
+            font-size: 4px;
+            float: right;
+            cursor: pointer;
+        }
+
+            #tb_add_emp td input[type=radio]:focus, #tb_add_emp2 td input[type=radio]:focus, #tb_add_emp02 td input[type=radio]:focus {
+                box-shadow: 0 0 5px rgb(202,47,33);
+                border: 2px solid rgb(202,47,33);
+            }
+
+        #tb_add_emp td select, #tb_add_emp2 td select, #tb_add_emp02 td select, #tb_add_emp03 td select {
+            transition: all .35s ease-in-out;
+            outline: thin;
+            border: 2px solid #cfcfcf;
+            color: #484848;
+            width: 148px;
+            float: left;
+        }
+
+            #tb_add_emp td select:focus, #tb_add_emp2 td select:focus, #tb_add_emp02 td select:focus, #tb_add_emp03 td select:focus {
+                box-shadow: 0 0 5px rgb(202,47,33);
+                border: 2px solid rgb(202,47,33);
+            }
+
+/******************************** End ********************************/

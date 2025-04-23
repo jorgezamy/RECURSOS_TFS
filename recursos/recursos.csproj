@@ -1,0 +1,744 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.Default.props" Condition="Exists('$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.Default.props')" />
+  <Import Project="..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props" Condition="Exists('..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{21B7807E-5B79-4DA7-A772-BC4C32A55A54}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>recursos</RootNamespace>
+    <AssemblyName>recursos</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+    <TypeScriptToolsVersion>1.8</TypeScriptToolsVersion>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <TargetFrameworkProfile />
+    <Use64BitIISExpress />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AjaxControlToolkit, Version=16.1.1.0, Culture=neutral, PublicKeyToken=28f01b0e84b6d53e, processorArchitecture=MSIL">
+      <HintPath>..\packages\AjaxControlToolkit.16.1.1.0\lib\net40\AjaxControlToolkit.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DocumentFormat.OpenXml, Version=2.5.5631.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\DocumentFormat.OpenXml.2.5\lib\DocumentFormat.OpenXml.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="GSMCommServer, Version=1.21.0.0, Culture=neutral, PublicKeyToken=515d87df384dcc81, processorArchitecture=MSIL">
+      <HintPath>..\packages\GSMComm.1.21.1\lib\GSMCommServer.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="GSMCommShared, Version=1.21.0.0, Culture=neutral, PublicKeyToken=515d87df384dcc81, processorArchitecture=MSIL">
+      <HintPath>..\packages\GSMComm.1.21.1\lib\GSMCommShared.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="GSMCommunication, Version=1.21.0.0, Culture=neutral, PublicKeyToken=515d87df384dcc81, processorArchitecture=MSIL">
+      <HintPath>..\packages\GSMComm.1.21.1\lib\GSMCommunication.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="itextsharp, Version=4.1.2.0, Culture=neutral, PublicKeyToken=8354ae6d2174ddca, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\itextsharp.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AI.Agent.Intercept, Version=2.0.6.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.Agent.Intercept.2.0.6\lib\net45\Microsoft.AI.Agent.Intercept.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.AI.DependencyCollector, Version=2.2.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.DependencyCollector.2.2.0\lib\net45\Microsoft.AI.DependencyCollector.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.AI.PerfCounterCollector, Version=2.2.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.PerfCounterCollector.2.2.0\lib\net45\Microsoft.AI.PerfCounterCollector.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.AI.ServerTelemetryChannel, Version=2.2.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.WindowsServer.TelemetryChannel.2.2.0\lib\net45\Microsoft.AI.ServerTelemetryChannel.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.AI.Web, Version=2.2.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.Web.2.2.0\lib\net45\Microsoft.AI.Web.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.AI.WindowsServer, Version=2.2.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.WindowsServer.2.2.0\lib\net45\Microsoft.AI.WindowsServer.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.ApplicationInsights, Version=2.2.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.2.2.0\lib\net45\Microsoft.ApplicationInsights.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Microsoft.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="MsBarco, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\entradas y salidas\entradas y salidas\LIB\MsBarco.dll</HintPath>
+    </Reference>
+    <Reference Include="NetOffice, Version=1.7.3.0, Culture=neutral, PublicKeyToken=acf636d62c39f8f5, processorArchitecture=MSIL">
+      <HintPath>..\packages\NetOffice.Core.1.7.4.4\lib\net45\NetOffice.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=3.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.3.5.8\lib\35\Newtonsoft.Json.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="OfficeApi, Version=1.7.3.0, Culture=neutral, PublicKeyToken=7c1c3e9d16cace88, processorArchitecture=MSIL">
+      <HintPath>..\packages\NetOffice.Core.1.7.4.4\lib\net45\OfficeApi.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="PDUConverter, Version=1.21.0.0, Culture=neutral, PublicKeyToken=515d87df384dcc81, processorArchitecture=MSIL">
+      <HintPath>..\packages\GSMComm.1.21.1\lib\PDUConverter.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Renci.SshNet, Version=2020.0.0.0, Culture=neutral, PublicKeyToken=1cee9f8bde3db106, processorArchitecture=MSIL">
+      <HintPath>..\packages\SSH.NET.2020.0.0\lib\net40\Renci.SshNet.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Optimization, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\Microsoft.AspNet.Web.Optimization.1.0.0\lib\net40\System.Web.Optimization.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="TemplateEngine.Docx, Version=1.0.0.0, Culture=neutral, PublicKeyToken=04d12e71ab4342c2, processorArchitecture=MSIL">
+      <HintPath>..\packages\TemplateEngine.Docx.1.1.4\lib\TemplateEngine.Docx.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="VBIDEApi, Version=1.7.3.0, Culture=neutral, PublicKeyToken=a3637beacf571e8a, processorArchitecture=MSIL">
+      <HintPath>..\packages\NetOffice.Core.1.7.4.4\lib\net45\VBIDEApi.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="WindowsBase" />
+    <Reference Include="WordApi, Version=1.7.3.0, Culture=neutral, PublicKeyToken=dd9255e6bcd130c8, processorArchitecture=MSIL">
+      <HintPath>..\packages\NetOffice.Word.1.7.4.4\lib\net45\WordApi.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Content\css\actualizar_fortia.css" />
+    <Content Include="Content\css\capacitacion_asistencia.css" />
+    <Content Include="Content\css\capacitacion_cursos_asignacion.css" />
+    <Content Include="Content\css\capacitacion_cursos_planAnual.css" />
+    <Content Include="Content\css\capacitacion_layout.css" />
+    <Content Include="Content\css\salarios_bonos.css" />
+    <Content Include="Content\css\confirmacion_registro.css" />
+    <Content Include="Content\css\desarrollo_urbano.css" />
+    <Content Include="Content\css\empleados.css" />
+    <Content Include="Content\css\empleados_agregar.css" />
+    <Content Include="Content\css\empleados_buscar.css" />
+    <Content Include="Content\css\empleados_baja.css" />
+    <Content Include="Content\css\empleados_editar.css" />
+    <Content Include="Content\css\empleados_fotos.css" />
+    <Content Include="Content\css\empleados_ver.css" />
+    <Content Include="Content\css\entradas_salidas.css" />
+    <Content Include="Content\css\horarios.css" />
+    <Content Include="Content\css\incidencias.css" />
+    <Content Include="Content\css\inicio.css" />
+    <Content Include="Content\css\permisos.css" />
+    <Content Include="Content\css\puestos.css" />
+    <Content Include="Content\css\reportes.css" />
+    <Content Include="Content\css\salarios.css" />
+    <Content Include="Content\css\select-dropdown.css" />
+    <Content Include="Content\css\vacaciones.css" />
+    <Content Include="Content\datepicker\calendar_black1\arrow.png" />
+    <Content Include="Content\datepicker\calendar_black1\darkdenim3.png" />
+    <Content Include="Content\datepicker\calendar_black1\dark_leather.png" />
+    <Content Include="Content\datepicker\calendar_black1\datepicker.css" />
+    <Content Include="Content\datepicker\calendar_black1\jquery-1.12.4.js" />
+    <Content Include="Content\datepicker\calendar_black1\jquery-ui.js" />
+    <Content Include="Content\datepicker\calendar_black1\normalize.css" />
+    <Content Include="Content\datepicker\calendar_blue2\jquery-1.7.min.js" />
+    <Content Include="Content\datepicker\calendar_blue2\jquery-ui.css" />
+    <Content Include="Content\datepicker\calendar_blue2\jquery-ui.min.js" />
+    <Content Include="Content\jQuery\v3.2.1.js" />
+    <Content Include="Content\js\calendario_dosmeses.js" />
+    <Content Include="Content\js\calendario_funciones.js" />
+    <Content Include="Content\js\capacitacion_cursos.js" />
+    <Content Include="Content\js\capacitacion.js" />
+    <Content Include="Content\js\css-pop.js" />
+    <Content Include="Content\js\fotos\jquery.webcam.js" />
+    <Content Include="Content\js\fotos\jscam.swf" />
+    <Content Include="Content\js\fotos\jscam_canvas_only.swf" />
+    <Content Include="Content\js\Funciones_radioButton.js" />
+    <Content Include="Content\js\inicio.js" />
+    <Content Include="Content\js\RadioButton_TieneNinos.js" />
+    <Content Include="Content\js\ReloadIfWithoutActivity.js" />
+    <Content Include="Content\js\tb_reporte_buscar.js" />
+    <Content Include="Content\js\TextBox_PresionarBtnEnter.js" />
+    <Content Include="images\background.png" />
+    <Content Include="images\buscar.png" />
+    <Content Include="images\buscar_white.png" />
+    <Content Include="images\delete_image.png" />
+    <Content Include="images\editar.png" />
+    <Content Include="images\editar_green.png" />
+    <Content Include="images\edit_image.png" />
+    <Content Include="images\empleados\menuBtn_empleados_1.png" />
+    <Content Include="images\empleados\menuBtn_empleados_2.png" />
+    <Content Include="images\empleados\menuBtn_empleados_3.png" />
+    <Content Include="images\empleados\menuBtn_empleados_4.png" />
+    <Content Include="images\empleados\menuBtn_empleados_5.png" />
+    <Content Include="images\empleados\menuBtn_empleados_disabled_1.png" />
+    <Content Include="images\empleados\menuBtn_empleados_disabled_2.png" />
+    <Content Include="images\empleados\menuBtn_empleados_disabled_3.png" />
+    <Content Include="images\empleados\menuBtn_empleados_disabled_4.png" />
+    <Content Include="images\empleados\menuBtn_empleados_disabled_5.png" />
+    <Content Include="images\empleados_fotos\logo.png" />
+    <Content Include="images\empleados_fotos\no-foto.png" />
+    <Content Include="images\guardar_green.png" />
+    <Content Include="images\guardar_red.png" />
+    <Content Include="images\limpiar_x.png" />
+    <Content Include="images\logo.png" />
+    <Content Include="images\menuPrincipal\capacitacion\cursos\menuBtn_recursos_capacitacion_cursos_1.png" />
+    <Content Include="images\menuPrincipal\capacitacion\cursos\menuBtn_recursos_capacitacion_cursos_2.png" />
+    <Content Include="images\menuPrincipal\capacitacion\cursos\menuBtn_recursos_capacitacion_cursos_disabled_1.png" />
+    <Content Include="images\menuPrincipal\capacitacion\cursos\menuBtn_recursos_capacitacion_cursos_disabled_2.png" />
+    <Content Include="images\menuPrincipal\capacitacion\menuBtn_recursos_capacitacion_1.png" />
+    <Content Include="images\menuPrincipal\capacitacion\menuBtn_recursos_capacitacion_2.png" />
+    <Content Include="images\menuPrincipal\capacitacion\menuBtn_recursos_capacitacion_3.png" />
+    <Content Include="images\menuPrincipal\capacitacion\menuBtn_recursos_capacitacion_4.png" />
+    <Content Include="images\menuPrincipal\capacitacion\menuBtn_recursos_capacitacion_disabled_1.png" />
+    <Content Include="images\menuPrincipal\capacitacion\menuBtn_recursos_capacitacion_disabled_2.png" />
+    <Content Include="images\menuPrincipal\capacitacion\menuBtn_recursos_capacitacion_disabled_3.png" />
+    <Content Include="images\menuPrincipal\capacitacion\menuBtn_recursos_capacitacion_disabled_4.png" />
+    <Content Include="images\menuPrincipal\menuBtn_recursos_1.png" />
+    <Content Include="images\menuPrincipal\menuBtn_recursos_10.png" />
+    <Content Include="images\menuPrincipal\menuBtn_recursos_11.png" />
+    <Content Include="images\menuPrincipal\menuBtn_recursos_12.png" />
+    <Content Include="images\menuPrincipal\menuBtn_recursos_13.png" />
+    <Content Include="images\menuPrincipal\menuBtn_recursos_14.png" />
+    <Content Include="images\menuPrincipal\menuBtn_recursos_15.png" />
+    <Content Include="images\menuPrincipal\menuBtn_recursos_16.png" />
+    <Content Include="images\menuPrincipal\menuBtn_recursos_17.png" />
+    <Content Include="images\menuPrincipal\menuBtn_recursos_18.png" />
+    <Content Include="images\menuPrincipal\menuBtn_recursos_19.png" />
+    <Content Include="images\menuPrincipal\menuBtn_recursos_2.png" />
+    <Content Include="images\menuPrincipal\menuBtn_recursos_20.png" />
+    <Content Include="images\menuPrincipal\menuBtn_recursos_21.png" />
+    <Content Include="images\menuPrincipal\menuBtn_recursos_3.png" />
+    <Content Include="images\menuPrincipal\menuBtn_recursos_4.png" />
+    <Content Include="images\menuPrincipal\menuBtn_recursos_5.png" />
+    <Content Include="images\menuPrincipal\menuBtn_recursos_6.png" />
+    <Content Include="images\menuPrincipal\menuBtn_recursos_7.png" />
+    <Content Include="images\menuPrincipal\menuBtn_recursos_8.png" />
+    <Content Include="images\menuPrincipal\menuBtn_recursos_9.png" />
+    <Content Include="images\menuPrincipal\menuBtn_recursos_disabled_1.png" />
+    <Content Include="images\menuPrincipal\menuBtn_recursos_disabled_10.png" />
+    <Content Include="images\menuPrincipal\menuBtn_recursos_disabled_11.png" />
+    <Content Include="images\menuPrincipal\menuBtn_recursos_disabled_12.png" />
+    <Content Include="images\menuPrincipal\menuBtn_recursos_disabled_13.png" />
+    <Content Include="images\menuPrincipal\menuBtn_recursos_disabled_14.png" />
+    <Content Include="images\menuPrincipal\menuBtn_recursos_disabled_15.png" />
+    <Content Include="images\menuPrincipal\menuBtn_recursos_disabled_16.png" />
+    <Content Include="images\menuPrincipal\menuBtn_recursos_disabled_17.png" />
+    <Content Include="images\menuPrincipal\menuBtn_recursos_disabled_18.png" />
+    <Content Include="images\menuPrincipal\menuBtn_recursos_disabled_19.png" />
+    <Content Include="images\menuPrincipal\menuBtn_recursos_disabled_2.png" />
+    <Content Include="images\menuPrincipal\menuBtn_recursos_disabled_20.png" />
+    <Content Include="images\menuPrincipal\menuBtn_recursos_disabled_21.png" />
+    <Content Include="images\menuPrincipal\menuBtn_recursos_disabled_3.png" />
+    <Content Include="images\menuPrincipal\menuBtn_recursos_disabled_4.png" />
+    <Content Include="images\menuPrincipal\menuBtn_recursos_disabled_5.png" />
+    <Content Include="images\menuPrincipal\menuBtn_recursos_disabled_6.png" />
+    <Content Include="images\menuPrincipal\menuBtn_recursos_disabled_7.png" />
+    <Content Include="images\menuPrincipal\menuBtn_recursos_disabled_8.png" />
+    <Content Include="images\menuPrincipal\menuBtn_recursos_disabled_9.png" />
+    <Content Include="images\menuPrincipal\salarios\menuBtn_recursos_salarios_1.png" />
+    <Content Include="images\menuPrincipal\salarios\menuBtn_recursos_salarios_disbaled_1.png" />
+    <Content Include="images\pestanas\InitialImage.png" />
+    <Content Include="images\pestanas\SelectedButton.png" />
+    <Content Include="images\seleccionar.png" />
+    <Content Include="images\seleccionar_green.png" />
+    <Content Include="images\x_black.png" />
+    <Content Include="images\x_red.png" />
+    <Content Include="material\Captura.PNG" />
+    <Content Include="material\marrano.png" />
+    <Content Include="packages.config" />
+    <Content Include="ApplicationInsights.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="index.Master" />
+    <Content Include="material\buscar boton.pptx" />
+    <Content Include="material\guardar boton.pptx" />
+    <Content Include="material\limpiarBoton_x.pptx" />
+    <Content Include="material\marrano.psd" />
+    <Content Include="material\menu.pptx" />
+    <Content Include="material\pestanas.pptx" />
+    <Content Include="material\rompecabezas.psd" />
+    <Content Include="material\seleccionar editar.pptx" />
+    <Content Include="material\x_boton.pptx" />
+    <None Include="Properties\PublishProfiles\recursos.pubxml" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Content\css\Master.css" />
+    <Content Include="Global.asax" />
+    <Content Include="LIB\MsBarco.dll" />
+    <Content Include="Views\actualizar_fortia.aspx" />
+    <Content Include="Views\ausentismos.aspx" />
+    <Content Include="Views\capacitacion.aspx" />
+    <Content Include="Views\capacitacion_asistencia.aspx" />
+    <Content Include="Views\capacitacion_cursos.aspx" />
+    <Content Include="Views\capacitacion_cursos_asignacion.aspx" />
+    <Content Include="Views\capacitacion_cursos_planAnual.aspx" />
+    <Content Include="Views\capacitacion_layout.aspx" />
+    <Content Include="Views\capacitacion_reportes.aspx" />
+    <Content Include="Views\desarrollo_urbano.aspx" />
+    <Content Include="Views\Fortia\fortia_altas.aspx" />
+    <Content Include="Views\Fortia\fortia_bajas.aspx" />
+    <Content Include="Views\Fortia\fortia_centro_costos.aspx" />
+    <Content Include="Views\Fortia\fortia_departamentos.aspx" />
+    <Content Include="Views\Fortia\fortia_faltas.aspx" />
+    <Content Include="Views\Fortia\fortia_hrsExtra.aspx" />
+    <Content Include="Views\Fortia\fortia_incapacidades.aspx" />
+    <Content Include="Views\Fortia\fortia_modificaciones.aspx" />
+    <Content Include="Views\Fortia\fortia_modificaciones_salarios.aspx" />
+    <Content Include="Views\Fortia\fortia_movimientos.aspx" />
+    <Content Include="Views\Fortia\fortia_movimientos_detallado.aspx" />
+    <Content Include="Views\Fortia\fortia_puestos.aspx" />
+    <Content Include="Views\Fortia\fortia_vacaciones.aspx" />
+    <Content Include="Views\insertar_sabados.aspx" />
+    <Content Include="Views\salarios.aspx" />
+    <Content Include="Views\salarios_bonos.aspx" />
+    <Content Include="Views\cartas.aspx" />
+    <Content Include="Views\confirmacion_registro.aspx" />
+    <Content Include="Views\empleados.aspx" />
+    <Content Include="Views\empleados_editar.aspx" />
+    <Content Include="Views\empleados_fotos.aspx" />
+    <Content Include="Views\empleados_ver.aspx" />
+    <Content Include="Views\entradas_salidas.aspx" />
+    <Content Include="Views\horarios.aspx" />
+    <Content Include="Views\horas_extra.aspx" />
+    <Content Include="Views\incapacidades.aspx" />
+    <Content Include="Views\incidencias.aspx" />
+    <Content Include="Views\inicio.aspx" />
+    <Content Include="Views\permisos.aspx" />
+    <Content Include="Views\puestos.aspx" />
+    <Content Include="Views\reportes.aspx" />
+    <Content Include="Views\retardos.aspx" />
+    <Content Include="Views\suspensiones.aspx" />
+    <Content Include="Views\vacaciones.aspx" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Content\class\uploadFile.cs" />
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="index.Master.cs">
+      <DependentUpon>index.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="index.Master.designer.cs">
+      <DependentUpon>index.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Views\actualizar_fortia.aspx.cs">
+      <DependentUpon>actualizar_fortia.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\actualizar_fortia.aspx.designer.cs">
+      <DependentUpon>actualizar_fortia.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\ausentismos.aspx.cs">
+      <DependentUpon>ausentismos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\ausentismos.aspx.designer.cs">
+      <DependentUpon>ausentismos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\capacitacion.aspx.cs">
+      <DependentUpon>capacitacion.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\capacitacion.aspx.designer.cs">
+      <DependentUpon>capacitacion.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\capacitacion_asistencia.aspx.cs">
+      <DependentUpon>capacitacion_asistencia.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\capacitacion_asistencia.aspx.designer.cs">
+      <DependentUpon>capacitacion_asistencia.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\capacitacion_cursos.aspx.cs">
+      <DependentUpon>capacitacion_cursos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\capacitacion_cursos.aspx.designer.cs">
+      <DependentUpon>capacitacion_cursos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\capacitacion_cursos_asignacion.aspx.cs">
+      <DependentUpon>capacitacion_cursos_asignacion.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\capacitacion_cursos_asignacion.aspx.designer.cs">
+      <DependentUpon>capacitacion_cursos_asignacion.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\capacitacion_cursos_planAnual.aspx.cs">
+      <DependentUpon>capacitacion_cursos_planAnual.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\capacitacion_cursos_planAnual.aspx.designer.cs">
+      <DependentUpon>capacitacion_cursos_planAnual.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\capacitacion_layout.aspx.cs">
+      <DependentUpon>capacitacion_layout.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\capacitacion_layout.aspx.designer.cs">
+      <DependentUpon>capacitacion_layout.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\capacitacion_reportes.aspx.cs">
+      <DependentUpon>capacitacion_reportes.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\capacitacion_reportes.aspx.designer.cs">
+      <DependentUpon>capacitacion_reportes.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\desarrollo_urbano.aspx.cs">
+      <DependentUpon>desarrollo_urbano.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\desarrollo_urbano.aspx.designer.cs">
+      <DependentUpon>desarrollo_urbano.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Fortia\fortia_altas.aspx.cs">
+      <DependentUpon>fortia_altas.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\Fortia\fortia_altas.aspx.designer.cs">
+      <DependentUpon>fortia_altas.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Fortia\fortia_bajas.aspx.cs">
+      <DependentUpon>fortia_bajas.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\Fortia\fortia_bajas.aspx.designer.cs">
+      <DependentUpon>fortia_bajas.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Fortia\fortia_centro_costos.aspx.cs">
+      <DependentUpon>fortia_centro_costos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\Fortia\fortia_centro_costos.aspx.designer.cs">
+      <DependentUpon>fortia_centro_costos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Fortia\fortia_departamentos.aspx.cs">
+      <DependentUpon>fortia_departamentos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\Fortia\fortia_departamentos.aspx.designer.cs">
+      <DependentUpon>fortia_departamentos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Fortia\fortia_faltas.aspx.cs">
+      <DependentUpon>fortia_faltas.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\Fortia\fortia_faltas.aspx.designer.cs">
+      <DependentUpon>fortia_faltas.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Fortia\fortia_hrsExtra.aspx.cs">
+      <DependentUpon>fortia_hrsExtra.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\Fortia\fortia_hrsExtra.aspx.designer.cs">
+      <DependentUpon>fortia_hrsExtra.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Fortia\fortia_incapacidades.aspx.cs">
+      <DependentUpon>fortia_incapacidades.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\Fortia\fortia_incapacidades.aspx.designer.cs">
+      <DependentUpon>fortia_incapacidades.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Fortia\fortia_modificaciones.aspx.cs">
+      <DependentUpon>fortia_modificaciones.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\Fortia\fortia_modificaciones.aspx.designer.cs">
+      <DependentUpon>fortia_modificaciones.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Fortia\fortia_modificaciones_salarios.aspx.cs">
+      <DependentUpon>fortia_modificaciones_salarios.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\Fortia\fortia_modificaciones_salarios.aspx.designer.cs">
+      <DependentUpon>fortia_modificaciones_salarios.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Fortia\fortia_movimientos.aspx.cs">
+      <DependentUpon>fortia_movimientos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\Fortia\fortia_movimientos.aspx.designer.cs">
+      <DependentUpon>fortia_movimientos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Fortia\fortia_movimientos_detallado.aspx.cs">
+      <DependentUpon>fortia_movimientos_detallado.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\Fortia\fortia_movimientos_detallado.aspx.designer.cs">
+      <DependentUpon>fortia_movimientos_detallado.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Fortia\fortia_puestos.aspx.cs">
+      <DependentUpon>fortia_puestos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\Fortia\fortia_puestos.aspx.designer.cs">
+      <DependentUpon>fortia_puestos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Fortia\fortia_vacaciones.aspx.cs">
+      <DependentUpon>fortia_vacaciones.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\Fortia\fortia_vacaciones.aspx.designer.cs">
+      <DependentUpon>fortia_vacaciones.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\insertar_sabados.aspx.cs">
+      <DependentUpon>insertar_sabados.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\insertar_sabados.aspx.designer.cs">
+      <DependentUpon>insertar_sabados.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\salarios.aspx.cs">
+      <DependentUpon>salarios.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\salarios.aspx.designer.cs">
+      <DependentUpon>salarios.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\salarios_bonos.aspx.cs">
+      <DependentUpon>salarios_bonos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\salarios_bonos.aspx.designer.cs">
+      <DependentUpon>salarios_bonos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\cartas.aspx.cs">
+      <DependentUpon>cartas.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\cartas.aspx.designer.cs">
+      <DependentUpon>cartas.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\confirmacion_registro.aspx.cs">
+      <DependentUpon>confirmacion_registro.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\confirmacion_registro.aspx.designer.cs">
+      <DependentUpon>confirmacion_registro.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\empleados.aspx.cs">
+      <DependentUpon>empleados.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\empleados.aspx.designer.cs">
+      <DependentUpon>empleados.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\empleados_editar.aspx.cs">
+      <DependentUpon>empleados_editar.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\empleados_editar.aspx.designer.cs">
+      <DependentUpon>empleados_editar.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\empleados_fotos.aspx.cs">
+      <DependentUpon>empleados_fotos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\empleados_fotos.aspx.designer.cs">
+      <DependentUpon>empleados_fotos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\empleados_ver.aspx.cs">
+      <DependentUpon>empleados_ver.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\empleados_ver.aspx.designer.cs">
+      <DependentUpon>empleados_ver.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\entradas_salidas.aspx.cs">
+      <DependentUpon>entradas_salidas.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\entradas_salidas.aspx.designer.cs">
+      <DependentUpon>entradas_salidas.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\horarios.aspx.cs">
+      <DependentUpon>horarios.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\horarios.aspx.designer.cs">
+      <DependentUpon>horarios.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\horas_extra.aspx.cs">
+      <DependentUpon>horas_extra.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\horas_extra.aspx.designer.cs">
+      <DependentUpon>horas_extra.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\incapacidades.aspx.cs">
+      <DependentUpon>incapacidades.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\incapacidades.aspx.designer.cs">
+      <DependentUpon>incapacidades.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\incidencias.aspx.cs">
+      <DependentUpon>incidencias.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\incidencias.aspx.designer.cs">
+      <DependentUpon>incidencias.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\inicio.aspx.cs">
+      <DependentUpon>inicio.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\inicio.aspx.designer.cs">
+      <DependentUpon>inicio.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\permisos.aspx.cs">
+      <DependentUpon>permisos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\permisos.aspx.designer.cs">
+      <DependentUpon>permisos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\puestos.aspx.cs">
+      <DependentUpon>puestos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\puestos.aspx.designer.cs">
+      <DependentUpon>puestos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\reportes.aspx.cs">
+      <DependentUpon>reportes.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\reportes.aspx.designer.cs">
+      <DependentUpon>reportes.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\retardos.aspx.cs">
+      <DependentUpon>retardos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\retardos.aspx.designer.cs">
+      <DependentUpon>retardos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\suspensiones.aspx.cs">
+      <DependentUpon>suspensiones.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\suspensiones.aspx.designer.cs">
+      <DependentUpon>suspensiones.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\vacaciones.aspx.cs">
+      <DependentUpon>vacaciones.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\vacaciones.aspx.designer.cs">
+      <DependentUpon>vacaciones.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{4A0DDDB5-7A95-4FBF-97CC-616D07737A77}" />
+  </ItemGroup>
+  <ItemGroup />
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.targets" Condition="Exists('$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.targets')" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>57907</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:57907/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

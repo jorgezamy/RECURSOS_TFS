@@ -1,0 +1,138 @@
+C:\Users\Jorge Zamora\Documents\Visual Studio 2015\Projects\recursos\recursos\bin\ApplicationInsights.config
+C:\Users\Jorge Zamora\Documents\Visual Studio 2015\Projects\recursos\recursos\bin\recursos.dll.config
+C:\Users\Jorge Zamora\Documents\Visual Studio 2015\Projects\recursos\recursos\bin\recursos.dll
+C:\Users\Jorge Zamora\Documents\Visual Studio 2015\Projects\recursos\recursos\bin\recursos.pdb
+C:\Users\Jorge Zamora\Documents\Visual Studio 2015\Projects\recursos\recursos\bin\AjaxControlToolkit.dll
+C:\Users\Jorge Zamora\Documents\Visual Studio 2015\Projects\recursos\recursos\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Jorge Zamora\Documents\Visual Studio 2015\Projects\recursos\recursos\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Jorge Zamora\Documents\Visual Studio 2015\Projects\recursos\recursos\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Jorge Zamora\Documents\Visual Studio 2015\Projects\recursos\recursos\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Jorge Zamora\Documents\Visual Studio 2015\Projects\recursos\recursos\bin\Microsoft.AI.Web.dll
+C:\Users\Jorge Zamora\Documents\Visual Studio 2015\Projects\recursos\recursos\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Jorge Zamora\Documents\Visual Studio 2015\Projects\recursos\recursos\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Jorge Zamora\Documents\Visual Studio 2015\Projects\recursos\recursos\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Jorge Zamora\Documents\Visual Studio 2015\Projects\recursos\recursos\bin\MsBarco.dll
+C:\Users\Jorge Zamora\Documents\Visual Studio 2015\Projects\recursos\recursos\bin\System.Web.Optimization.dll
+C:\Users\Jorge Zamora\Documents\Visual Studio 2015\Projects\recursos\recursos\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Jorge Zamora\Documents\Visual Studio 2015\Projects\recursos\recursos\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Jorge Zamora\Documents\Visual Studio 2015\Projects\recursos\recursos\bin\Microsoft.AI.Web.xml
+C:\Users\Jorge Zamora\Documents\Visual Studio 2015\Projects\recursos\recursos\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Jorge Zamora\Documents\Visual Studio 2015\Projects\recursos\recursos\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Jorge Zamora\Documents\Visual Studio 2015\Projects\recursos\recursos\obj\Debug\recursos.dll
+C:\Users\Jorge Zamora\Documents\Visual Studio 2015\Projects\recursos\recursos\obj\Debug\recursos.pdb
+C:\Users\Jorge Zamora\Documents\Visual Studio 2015\Projects\recursos\recursos\bin\Microsoft.Web.Infrastructure.xml
+C:\Users\Jorge Zamora\Documents\Visual Studio 2015\Projects\recursos\recursos\obj\Debug\recursos.csprojResolveAssemblyReference.cache
+C:\Users\Jorge Zamora\Desktop\TFS\Recursos TFS\recursos\obj\Debug\recursos.dll
+C:\Users\Jorge Zamora\Desktop\TFS\Recursos TFS\recursos\obj\Debug\recursos.pdb
+C:\Users\Jorge Zamora\Desktop\TFS\Recursos TFS\recursos\bin\ApplicationInsights.config
+C:\Users\Jorge Zamora\Desktop\TFS\Recursos TFS\recursos\bin\recursos.dll.config
+C:\Users\Jorge Zamora\Desktop\TFS\Recursos TFS\recursos\bin\recursos.dll
+C:\Users\Jorge Zamora\Desktop\TFS\Recursos TFS\recursos\bin\recursos.pdb
+C:\Users\Jorge Zamora\Desktop\TFS\Recursos TFS\recursos\bin\AjaxControlToolkit.dll
+C:\Users\Jorge Zamora\Desktop\TFS\Recursos TFS\recursos\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Jorge Zamora\Desktop\TFS\Recursos TFS\recursos\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Jorge Zamora\Desktop\TFS\Recursos TFS\recursos\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Jorge Zamora\Desktop\TFS\Recursos TFS\recursos\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Jorge Zamora\Desktop\TFS\Recursos TFS\recursos\bin\Microsoft.AI.Web.dll
+C:\Users\Jorge Zamora\Desktop\TFS\Recursos TFS\recursos\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Jorge Zamora\Desktop\TFS\Recursos TFS\recursos\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Jorge Zamora\Desktop\TFS\Recursos TFS\recursos\bin\MsBarco.dll
+C:\Users\Jorge Zamora\Desktop\TFS\Recursos TFS\recursos\bin\System.Web.Optimization.dll
+C:\Users\Jorge Zamora\Desktop\TFS\Recursos TFS\recursos\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Jorge Zamora\Desktop\TFS\Recursos TFS\recursos\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Jorge Zamora\Desktop\TFS\Recursos TFS\recursos\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Jorge Zamora\Desktop\TFS\Recursos TFS\recursos\bin\Microsoft.AI.Web.xml
+C:\Users\Jorge Zamora\Desktop\TFS\Recursos TFS\recursos\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Jorge Zamora\Desktop\TFS\Recursos TFS\recursos\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Jorge Zamora\Desktop\TFS\Recursos TFS\recursos\bin\Microsoft.Web.Infrastructure.xml
+C:\Users\Jorge Zamora\Desktop\TFS\Recursos TFS\recursos\obj\Debug\recursos.csprojResolveAssemblyReference.cache
+C:\Users\TNCH\Desktop\TFS\Recursos TFS\recursos\bin\ApplicationInsights.config
+C:\Users\TNCH\Desktop\TFS\Recursos TFS\recursos\bin\recursos.dll.config
+C:\Users\TNCH\Desktop\TFS\Recursos TFS\recursos\bin\recursos.dll
+C:\Users\TNCH\Desktop\TFS\Recursos TFS\recursos\bin\recursos.pdb
+C:\Users\TNCH\Desktop\TFS\Recursos TFS\recursos\bin\AjaxControlToolkit.dll
+C:\Users\TNCH\Desktop\TFS\Recursos TFS\recursos\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\TNCH\Desktop\TFS\Recursos TFS\recursos\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\TNCH\Desktop\TFS\Recursos TFS\recursos\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\TNCH\Desktop\TFS\Recursos TFS\recursos\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\TNCH\Desktop\TFS\Recursos TFS\recursos\bin\Microsoft.AI.Web.dll
+C:\Users\TNCH\Desktop\TFS\Recursos TFS\recursos\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\TNCH\Desktop\TFS\Recursos TFS\recursos\bin\Microsoft.ApplicationInsights.dll
+C:\Users\TNCH\Desktop\TFS\Recursos TFS\recursos\bin\MsBarco.dll
+C:\Users\TNCH\Desktop\TFS\Recursos TFS\recursos\bin\System.Web.Optimization.dll
+C:\Users\TNCH\Desktop\TFS\Recursos TFS\recursos\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\TNCH\Desktop\TFS\Recursos TFS\recursos\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\TNCH\Desktop\TFS\Recursos TFS\recursos\bin\Microsoft.AI.Web.xml
+C:\Users\TNCH\Desktop\TFS\Recursos TFS\recursos\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\TNCH\Desktop\TFS\Recursos TFS\recursos\bin\Microsoft.ApplicationInsights.xml
+C:\Users\TNCH\Desktop\TFS\Recursos TFS\recursos\obj\Debug\recursos.dll
+C:\Users\TNCH\Desktop\TFS\Recursos TFS\recursos\obj\Debug\recursos.pdb
+C:\Users\TNCH\Desktop\TFS\Recursos TFS\recursos\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\TNCH\Desktop\TFS\Recursos TFS\recursos\bin\GSMCommServer.dll
+C:\Users\TNCH\Desktop\TFS\Recursos TFS\recursos\bin\GSMCommShared.dll
+C:\Users\TNCH\Desktop\TFS\Recursos TFS\recursos\bin\GSMCommunication.dll
+C:\Users\TNCH\Desktop\TFS\Recursos TFS\recursos\bin\PDUConverter.dll
+C:\Users\TNCH\Desktop\TFS\Recursos TFS\recursos\bin\DocumentFormat.OpenXml.dll
+C:\Users\TNCH\Desktop\TFS\Recursos TFS\recursos\bin\Newtonsoft.Json.dll
+C:\Users\TNCH\Desktop\TFS\Recursos TFS\recursos\bin\TemplateEngine.Docx.dll
+C:\Users\TNCH\Desktop\TFS\Recursos TFS\recursos\bin\Newtonsoft.Json.pdb
+C:\Users\TNCH\Desktop\TFS\Recursos TFS\recursos\bin\Newtonsoft.Json.xml
+C:\Users\TNCH\Desktop\TFS\Recursos TFS\recursos\bin\itextsharp.dll
+C:\Users\TNCH\Desktop\TFS\Recursos TFS\recursos\bin\NetOffice.dll
+C:\Users\TNCH\Desktop\TFS\Recursos TFS\recursos\bin\OfficeApi.dll
+C:\Users\TNCH\Desktop\TFS\Recursos TFS\recursos\bin\VBIDEApi.dll
+C:\Users\TNCH\Desktop\TFS\Recursos TFS\recursos\bin\WordApi.dll
+C:\Users\TNCH\Desktop\TFS\Recursos TFS\recursos\bin\stdole.dll
+C:\Users\TNCH\Desktop\TFS\Recursos TFS\recursos\bin\NetOffice.xml
+C:\Users\TNCH\Desktop\TFS\Recursos TFS\recursos\bin\OfficeApi.xml
+C:\Users\TNCH\Desktop\TFS\Recursos TFS\recursos\bin\VBIDEApi.xml
+C:\Users\TNCH\Desktop\TFS\Recursos TFS\recursos\bin\WordApi.xml
+C:\Users\TNCH\Desktop\TFS\Recursos TFS\recursos\bin\Renci.SshNet.dll
+C:\Users\TNCH\Desktop\TFS\Recursos TFS\recursos\bin\Renci.SshNet.xml
+C:\Users\TNCH\Desktop\TFS\Recursos TFS\recursos\obj\Debug\recursos.csprojResolveAssemblyReference.cache
+D:\GC Digital Mark\GCDM\TFS\Recursos TFS\recursos\bin\ApplicationInsights.config
+D:\GC Digital Mark\GCDM\TFS\Recursos TFS\recursos\bin\recursos.dll.config
+D:\GC Digital Mark\GCDM\TFS\Recursos TFS\recursos\bin\recursos.dll
+D:\GC Digital Mark\GCDM\TFS\Recursos TFS\recursos\bin\recursos.pdb
+D:\GC Digital Mark\GCDM\TFS\Recursos TFS\recursos\bin\AjaxControlToolkit.dll
+D:\GC Digital Mark\GCDM\TFS\Recursos TFS\recursos\bin\DocumentFormat.OpenXml.dll
+D:\GC Digital Mark\GCDM\TFS\Recursos TFS\recursos\bin\GSMCommServer.dll
+D:\GC Digital Mark\GCDM\TFS\Recursos TFS\recursos\bin\GSMCommShared.dll
+D:\GC Digital Mark\GCDM\TFS\Recursos TFS\recursos\bin\GSMCommunication.dll
+D:\GC Digital Mark\GCDM\TFS\Recursos TFS\recursos\bin\itextsharp.dll
+D:\GC Digital Mark\GCDM\TFS\Recursos TFS\recursos\bin\Microsoft.AI.Agent.Intercept.dll
+D:\GC Digital Mark\GCDM\TFS\Recursos TFS\recursos\bin\Microsoft.AI.DependencyCollector.dll
+D:\GC Digital Mark\GCDM\TFS\Recursos TFS\recursos\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\GC Digital Mark\GCDM\TFS\Recursos TFS\recursos\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\GC Digital Mark\GCDM\TFS\Recursos TFS\recursos\bin\Microsoft.AI.Web.dll
+D:\GC Digital Mark\GCDM\TFS\Recursos TFS\recursos\bin\Microsoft.AI.WindowsServer.dll
+D:\GC Digital Mark\GCDM\TFS\Recursos TFS\recursos\bin\Microsoft.ApplicationInsights.dll
+D:\GC Digital Mark\GCDM\TFS\Recursos TFS\recursos\bin\Microsoft.Web.Infrastructure.dll
+D:\GC Digital Mark\GCDM\TFS\Recursos TFS\recursos\bin\MsBarco.dll
+D:\GC Digital Mark\GCDM\TFS\Recursos TFS\recursos\bin\NetOffice.dll
+D:\GC Digital Mark\GCDM\TFS\Recursos TFS\recursos\bin\Newtonsoft.Json.dll
+D:\GC Digital Mark\GCDM\TFS\Recursos TFS\recursos\bin\OfficeApi.dll
+D:\GC Digital Mark\GCDM\TFS\Recursos TFS\recursos\bin\PDUConverter.dll
+D:\GC Digital Mark\GCDM\TFS\Recursos TFS\recursos\bin\Renci.SshNet.dll
+D:\GC Digital Mark\GCDM\TFS\Recursos TFS\recursos\bin\System.Web.Optimization.dll
+D:\GC Digital Mark\GCDM\TFS\Recursos TFS\recursos\bin\TemplateEngine.Docx.dll
+D:\GC Digital Mark\GCDM\TFS\Recursos TFS\recursos\bin\VBIDEApi.dll
+D:\GC Digital Mark\GCDM\TFS\Recursos TFS\recursos\bin\WordApi.dll
+D:\GC Digital Mark\GCDM\TFS\Recursos TFS\recursos\bin\stdole.dll
+D:\GC Digital Mark\GCDM\TFS\Recursos TFS\recursos\bin\Microsoft.AI.DependencyCollector.xml
+D:\GC Digital Mark\GCDM\TFS\Recursos TFS\recursos\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\GC Digital Mark\GCDM\TFS\Recursos TFS\recursos\bin\Microsoft.AI.Web.xml
+D:\GC Digital Mark\GCDM\TFS\Recursos TFS\recursos\bin\Microsoft.AI.WindowsServer.xml
+D:\GC Digital Mark\GCDM\TFS\Recursos TFS\recursos\bin\Microsoft.ApplicationInsights.xml
+D:\GC Digital Mark\GCDM\TFS\Recursos TFS\recursos\bin\NetOffice.xml
+D:\GC Digital Mark\GCDM\TFS\Recursos TFS\recursos\bin\Newtonsoft.Json.pdb
+D:\GC Digital Mark\GCDM\TFS\Recursos TFS\recursos\bin\Newtonsoft.Json.xml
+D:\GC Digital Mark\GCDM\TFS\Recursos TFS\recursos\bin\OfficeApi.xml
+D:\GC Digital Mark\GCDM\TFS\Recursos TFS\recursos\bin\Renci.SshNet.xml
+D:\GC Digital Mark\GCDM\TFS\Recursos TFS\recursos\bin\VBIDEApi.xml
+D:\GC Digital Mark\GCDM\TFS\Recursos TFS\recursos\bin\WordApi.xml
+D:\GC Digital Mark\GCDM\TFS\Recursos TFS\recursos\obj\Debug\recursos.csproj.AssemblyReference.cache
+D:\GC Digital Mark\GCDM\TFS\Recursos TFS\recursos\obj\Debug\recursos.csproj.CoreCompileInputs.cache
+D:\GC Digital Mark\GCDM\TFS\Recursos TFS\recursos\obj\Debug\recursos.csproj.CopyComplete
+D:\GC Digital Mark\GCDM\TFS\Recursos TFS\recursos\obj\Debug\recursos.dll
+D:\GC Digital Mark\GCDM\TFS\Recursos TFS\recursos\obj\Debug\recursos.pdb

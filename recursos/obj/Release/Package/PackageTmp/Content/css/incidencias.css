@@ -1,0 +1,19 @@
+﻿.grid_incidencias {
+    font-family: Calibri Light;
+    text-align: center;
+    font-size: 14px;
+    margin: 0% auto;
+    margin-bottom: 2%;
+    display: inline-block;
+    /*border: solid 2px black;*/
+} 
+
+.footer_incidencias {
+    font-family: Calibri Light;
+    text-align: center;
+    font-size: 14px;
+    margin: 0% auto;
+    margin-bottom: 2%;
+    display: inline-block;
+    border: solid 1px black;
+}

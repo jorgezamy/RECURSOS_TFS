@@ -1,0 +1,35 @@
+﻿#table_horarios {
+    margin:0 auto;
+}
+
+    #table_horarios td {
+        padding-top:1.5%;
+        /*border:dashed;*/
+    }
+
+#sub_horarios {
+    margin-top:2%;
+    font-weight:bold;
+    display:block;
+}
+
+.btn_guardar_horarios {
+    margin:2% auto;
+    font-family: Calibri Light;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: darkgreen;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 2%;
+    padding-right: 2%;
+    border-radius: 10px;
+    color: white;
+    outline: none;
+    transition: 0.28s ease-in-out;
+    cursor: pointer;
+}
+
+    .btn_guardar_horarios:hover {
+        background-color: rgb(202,47,33);
+    }

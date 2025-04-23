@@ -1,0 +1,91 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="index.master.cs" Inherits="recursos.index" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+
+    <%--<meta http-equiv="refresh" content="60" />--%>
+
+    <title>TNCH</title>
+    
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+
+    <!-- Importing the css -->
+    <link rel="stylesheet" type="text/css" href="Content/css/Master.css" />
+    <link rel="stylesheet" type="text/css" href="Content/css/inicio.css" />
+    <link rel="stylesheet" type="text/css" href="Content/css/empleados.css" />
+    <link rel="stylesheet" type="text/css" href="Content/css/empleados_agregar.css" />
+    <link rel="stylesheet" type="text/css" href="Content/css/empleados_buscar.css" />
+    <link rel="stylesheet" type="text/css" href="Content/css/empleados_baja.css" />
+    <link rel="stylesheet" type="text/css" href="Content/css/empleados_editar.css" /> 
+    <link rel="stylesheet" type="text/css" href="Content/css/empleados_ver.css" />
+    <link rel="stylesheet" type="text/css" href="Content/css/puestos.css" />
+    <link rel="stylesheet" type="text/css" href="Content/css/confirmacion_registro.css" />
+    <link href="Content/css/vacaciones.css" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="Content/css/permisos.css" />
+    <link rel="stylesheet" type="text/css" href="Content/css/salarios.css" />
+    <link rel="stylesheet" type="text/css" href="Content/css/salarios_bonos.css" />
+    <link rel="stylesheet" type="text/css" href="Content/css/incidencias.css" />
+    <link rel="stylesheet" type="text/css" href="Content/css/empleados_fotos.css" />
+    <link rel="stylesheet" type="text/css" href="Content/css/horarios.css" />
+    <link rel="stylesheet" type="text/css" href="Content/css/entradas_salidas.css" />
+    <link rel="stylesheet" type="text/css" href="Content/css/reportes.css" />
+    <link rel="stylesheet" type="text/css" href="Content/css/desarrollo_urbano.css" />
+    <link rel="stylesheet" type="text/css" href="Content/css/actualizar_fortia.css" />
+    <link rel="stylesheet" type="text/css" href="Content/css/capacitacion_layout.css" />
+    <link rel="stylesheet" type="text/css" href="Content/css/capacitacion_cursos_planAnual.css" />
+    <!-- End -->
+
+
+    <script type="text/javascript" src="Content/js/capacitacion.js"></script>
+
+     <%--Importing the js--%> 
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+    <script type="text/javascript" src="/Content/js/ReloadIfWithoutActivity.js"></script>
+        
+        <%-- Empleados --%>
+        <script type="text/javascript" src="/Content/js/css-pop.js"></script>
+        <script type="text/javascript" src="/Content/js/RadioButton_TieneNinos.js"></script>
+        <script type="text/javascript" src="/Content/js/TextBox_PresionarBtnEnter.js"></script>
+        <script type="text/javascript" src="/Content/js/tb_reporte_buscar.js"></script>
+
+    <!-- End -->
+
+    <!-- calendar_black1 - Datepicker 1 CSS and JS -->
+    <link rel="stylesheet" type="text/css" href="Content/datepicker/calendar_black1/datepicker.css" />
+    <link rel="stylesheet" type="text/css" href="Content/datepicker/calendar_black1/normalize.css" />
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script type="text/javascript" src="/Content/js/calendario_dosmeses.js"></script>
+    <!-- End -->
+
+    <!-- calendar_blue2 - Datepicker 2 CSS and JS -->
+    <%--<script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.7.min.js"></script>
+    <script src="http://ajax.aspnetcdn.com/ajax/jquery.ui/1.8.16/jquery-ui.min.js"></script>
+    <link type="text/css" rel="Stylesheet" href="http://ajax.microsoft.com/ajax/jquery.ui/1.8.16/themes/redmond/jquery-ui.css" />--%>
+    <!-- End -->
+
+</head>
+<body>
+
+    <form id="form1" runat="server">
+        
+        <%--<asp:Image ID="logo"  ImageUrl="~/images/logo.png" CssClass="logo" runat="server" />--%>
+        <asp:ImageButton ID="logo" runat="server" ImageUrl="~/images/logo.png" CssClass="logo" OnClick="logo_Click"/>
+
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        </asp:ContentPlaceHolder>
+
+        <!-- Background -->
+        <div class="triangulo-equilatero-bottom-right" ></div>
+        <div class="triangulo-equilatero-bottom-left" ></div>
+        <!-- End -->
+        
+        <asp:Label runat="server" ID="t1" ClientIDMode="Static" Text="Recursos Humanos"></asp:Label>
+
+    </form>
+
+</body>
+</html>
