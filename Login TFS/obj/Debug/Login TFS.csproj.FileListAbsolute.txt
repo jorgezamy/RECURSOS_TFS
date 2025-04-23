@@ -1,0 +1,113 @@
+C:\Users\Jorge Zamora\Desktop\TFS\Login TFS\Login TFS\Login TFS\bin\ApplicationInsights.config
+C:\Users\Jorge Zamora\Desktop\TFS\Login TFS\Login TFS\Login TFS\bin\roslyn\csc.exe
+C:\Users\Jorge Zamora\Desktop\TFS\Login TFS\Login TFS\Login TFS\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Jorge Zamora\Desktop\TFS\Login TFS\Login TFS\Login TFS\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Jorge Zamora\Desktop\TFS\Login TFS\Login TFS\Login TFS\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Jorge Zamora\Desktop\TFS\Login TFS\Login TFS\Login TFS\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Jorge Zamora\Desktop\TFS\Login TFS\Login TFS\Login TFS\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Jorge Zamora\Desktop\TFS\Login TFS\Login TFS\Login TFS\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Jorge Zamora\Desktop\TFS\Login TFS\Login TFS\Login TFS\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Jorge Zamora\Desktop\TFS\Login TFS\Login TFS\Login TFS\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Jorge Zamora\Desktop\TFS\Login TFS\Login TFS\Login TFS\bin\roslyn\vbc.exe
+C:\Users\Jorge Zamora\Desktop\TFS\Login TFS\Login TFS\Login TFS\bin\roslyn\VBCSCompiler.exe
+C:\Users\Jorge Zamora\Desktop\TFS\Login TFS\Login TFS\Login TFS\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Jorge Zamora\Desktop\TFS\Login TFS\Login TFS\Login TFS\bin\Login TFS.dll.config
+C:\Users\Jorge Zamora\Desktop\TFS\Login TFS\Login TFS\Login TFS\bin\Login TFS.dll
+C:\Users\Jorge Zamora\Desktop\TFS\Login TFS\Login TFS\Login TFS\bin\Login TFS.pdb
+C:\Users\Jorge Zamora\Desktop\TFS\Login TFS\Login TFS\Login TFS\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Jorge Zamora\Desktop\TFS\Login TFS\Login TFS\Login TFS\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Jorge Zamora\Desktop\TFS\Login TFS\Login TFS\Login TFS\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Jorge Zamora\Desktop\TFS\Login TFS\Login TFS\Login TFS\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Jorge Zamora\Desktop\TFS\Login TFS\Login TFS\Login TFS\bin\Microsoft.AI.Web.dll
+C:\Users\Jorge Zamora\Desktop\TFS\Login TFS\Login TFS\Login TFS\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Jorge Zamora\Desktop\TFS\Login TFS\Login TFS\Login TFS\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Jorge Zamora\Desktop\TFS\Login TFS\Login TFS\Login TFS\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Jorge Zamora\Desktop\TFS\Login TFS\Login TFS\Login TFS\bin\MsBarco.dll
+C:\Users\Jorge Zamora\Desktop\TFS\Login TFS\Login TFS\Login TFS\bin\System.Web.Optimization.dll
+C:\Users\Jorge Zamora\Desktop\TFS\Login TFS\Login TFS\Login TFS\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Jorge Zamora\Desktop\TFS\Login TFS\Login TFS\Login TFS\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Jorge Zamora\Desktop\TFS\Login TFS\Login TFS\Login TFS\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Jorge Zamora\Desktop\TFS\Login TFS\Login TFS\Login TFS\bin\Microsoft.AI.Web.xml
+C:\Users\Jorge Zamora\Desktop\TFS\Login TFS\Login TFS\Login TFS\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Jorge Zamora\Desktop\TFS\Login TFS\Login TFS\Login TFS\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Jorge Zamora\Desktop\TFS\Login TFS\Login TFS\Login TFS\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Jorge Zamora\Desktop\TFS\Login TFS\Login TFS\Login TFS\bin\Microsoft.Web.Infrastructure.xml
+C:\Users\Jorge Zamora\Desktop\TFS\Login TFS\Login TFS\Login TFS\obj\Debug\Login TFS.dll
+C:\Users\Jorge Zamora\Desktop\TFS\Login TFS\Login TFS\Login TFS\obj\Debug\Login TFS.pdb
+C:\Users\Jorge Zamora\Desktop\TFS\Login TFS\Login TFS\Login TFS\obj\Debug\Login TFS.csprojResolveAssemblyReference.cache
+C:\Users\TNCH\Desktop\TFS\Login TFS\Login TFS\Login TFS\bin\ApplicationInsights.config
+C:\Users\TNCH\Desktop\TFS\Login TFS\Login TFS\Login TFS\bin\roslyn\csc.exe
+C:\Users\TNCH\Desktop\TFS\Login TFS\Login TFS\Login TFS\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\TNCH\Desktop\TFS\Login TFS\Login TFS\Login TFS\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\TNCH\Desktop\TFS\Login TFS\Login TFS\Login TFS\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\TNCH\Desktop\TFS\Login TFS\Login TFS\Login TFS\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\TNCH\Desktop\TFS\Login TFS\Login TFS\Login TFS\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\TNCH\Desktop\TFS\Login TFS\Login TFS\Login TFS\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\TNCH\Desktop\TFS\Login TFS\Login TFS\Login TFS\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\TNCH\Desktop\TFS\Login TFS\Login TFS\Login TFS\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\TNCH\Desktop\TFS\Login TFS\Login TFS\Login TFS\bin\roslyn\vbc.exe
+C:\Users\TNCH\Desktop\TFS\Login TFS\Login TFS\Login TFS\bin\roslyn\VBCSCompiler.exe
+C:\Users\TNCH\Desktop\TFS\Login TFS\Login TFS\Login TFS\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\TNCH\Desktop\TFS\Login TFS\Login TFS\Login TFS\bin\Login TFS.dll.config
+C:\Users\TNCH\Desktop\TFS\Login TFS\Login TFS\Login TFS\bin\Login TFS.dll
+C:\Users\TNCH\Desktop\TFS\Login TFS\Login TFS\Login TFS\bin\Login TFS.pdb
+C:\Users\TNCH\Desktop\TFS\Login TFS\Login TFS\Login TFS\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\TNCH\Desktop\TFS\Login TFS\Login TFS\Login TFS\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\TNCH\Desktop\TFS\Login TFS\Login TFS\Login TFS\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\TNCH\Desktop\TFS\Login TFS\Login TFS\Login TFS\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\TNCH\Desktop\TFS\Login TFS\Login TFS\Login TFS\bin\Microsoft.AI.Web.dll
+C:\Users\TNCH\Desktop\TFS\Login TFS\Login TFS\Login TFS\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\TNCH\Desktop\TFS\Login TFS\Login TFS\Login TFS\bin\Microsoft.ApplicationInsights.dll
+C:\Users\TNCH\Desktop\TFS\Login TFS\Login TFS\Login TFS\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\TNCH\Desktop\TFS\Login TFS\Login TFS\Login TFS\bin\MsBarco.dll
+C:\Users\TNCH\Desktop\TFS\Login TFS\Login TFS\Login TFS\bin\System.Web.Optimization.dll
+C:\Users\TNCH\Desktop\TFS\Login TFS\Login TFS\Login TFS\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\TNCH\Desktop\TFS\Login TFS\Login TFS\Login TFS\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\TNCH\Desktop\TFS\Login TFS\Login TFS\Login TFS\bin\Microsoft.AI.Web.xml
+C:\Users\TNCH\Desktop\TFS\Login TFS\Login TFS\Login TFS\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\TNCH\Desktop\TFS\Login TFS\Login TFS\Login TFS\bin\Microsoft.ApplicationInsights.xml
+C:\Users\TNCH\Desktop\TFS\Login TFS\Login TFS\Login TFS\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\TNCH\Desktop\TFS\Login TFS\Login TFS\Login TFS\obj\Debug\Login TFS.dll
+C:\Users\TNCH\Desktop\TFS\Login TFS\Login TFS\Login TFS\obj\Debug\Login TFS.pdb
+C:\Users\TNCH\Desktop\TFS\Login TFS\Login TFS\Login TFS\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\TNCH\Desktop\TFS\Login TFS\Login TFS\Login TFS\obj\Debug\Login TFS.csprojResolveAssemblyReference.cache
+C:\Users\TNCH\Desktop\TFS\Login TFS\Login TFS\Login TFS\bin\AjaxControlToolkit.dll
+D:\GC Digital Mark\GCDM\TFS\Login TFS\Login TFS\Login TFS\bin\ApplicationInsights.config
+D:\GC Digital Mark\GCDM\TFS\Login TFS\Login TFS\Login TFS\bin\roslyn\csc.exe
+D:\GC Digital Mark\GCDM\TFS\Login TFS\Login TFS\Login TFS\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\GC Digital Mark\GCDM\TFS\Login TFS\Login TFS\Login TFS\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\GC Digital Mark\GCDM\TFS\Login TFS\Login TFS\Login TFS\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\GC Digital Mark\GCDM\TFS\Login TFS\Login TFS\Login TFS\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\GC Digital Mark\GCDM\TFS\Login TFS\Login TFS\Login TFS\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\GC Digital Mark\GCDM\TFS\Login TFS\Login TFS\Login TFS\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\GC Digital Mark\GCDM\TFS\Login TFS\Login TFS\Login TFS\bin\roslyn\System.Collections.Immutable.dll
+D:\GC Digital Mark\GCDM\TFS\Login TFS\Login TFS\Login TFS\bin\roslyn\System.Reflection.Metadata.dll
+D:\GC Digital Mark\GCDM\TFS\Login TFS\Login TFS\Login TFS\bin\roslyn\vbc.exe
+D:\GC Digital Mark\GCDM\TFS\Login TFS\Login TFS\Login TFS\bin\roslyn\VBCSCompiler.exe
+D:\GC Digital Mark\GCDM\TFS\Login TFS\Login TFS\Login TFS\bin\roslyn\VBCSCompiler.exe.config
+D:\GC Digital Mark\GCDM\TFS\Login TFS\Login TFS\Login TFS\bin\Login TFS.dll.config
+D:\GC Digital Mark\GCDM\TFS\Login TFS\Login TFS\Login TFS\bin\Login TFS.dll
+D:\GC Digital Mark\GCDM\TFS\Login TFS\Login TFS\Login TFS\bin\Login TFS.pdb
+D:\GC Digital Mark\GCDM\TFS\Login TFS\Login TFS\Login TFS\bin\AjaxControlToolkit.dll
+D:\GC Digital Mark\GCDM\TFS\Login TFS\Login TFS\Login TFS\bin\Microsoft.AI.Agent.Intercept.dll
+D:\GC Digital Mark\GCDM\TFS\Login TFS\Login TFS\Login TFS\bin\Microsoft.AI.DependencyCollector.dll
+D:\GC Digital Mark\GCDM\TFS\Login TFS\Login TFS\Login TFS\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\GC Digital Mark\GCDM\TFS\Login TFS\Login TFS\Login TFS\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\GC Digital Mark\GCDM\TFS\Login TFS\Login TFS\Login TFS\bin\Microsoft.AI.Web.dll
+D:\GC Digital Mark\GCDM\TFS\Login TFS\Login TFS\Login TFS\bin\Microsoft.AI.WindowsServer.dll
+D:\GC Digital Mark\GCDM\TFS\Login TFS\Login TFS\Login TFS\bin\Microsoft.ApplicationInsights.dll
+D:\GC Digital Mark\GCDM\TFS\Login TFS\Login TFS\Login TFS\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\GC Digital Mark\GCDM\TFS\Login TFS\Login TFS\Login TFS\bin\Microsoft.Web.Infrastructure.dll
+D:\GC Digital Mark\GCDM\TFS\Login TFS\Login TFS\Login TFS\bin\MsBarco.dll
+D:\GC Digital Mark\GCDM\TFS\Login TFS\Login TFS\Login TFS\bin\System.Web.Optimization.dll
+D:\GC Digital Mark\GCDM\TFS\Login TFS\Login TFS\Login TFS\bin\Microsoft.AI.DependencyCollector.xml
+D:\GC Digital Mark\GCDM\TFS\Login TFS\Login TFS\Login TFS\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\GC Digital Mark\GCDM\TFS\Login TFS\Login TFS\Login TFS\bin\Microsoft.AI.Web.xml
+D:\GC Digital Mark\GCDM\TFS\Login TFS\Login TFS\Login TFS\bin\Microsoft.AI.WindowsServer.xml
+D:\GC Digital Mark\GCDM\TFS\Login TFS\Login TFS\Login TFS\bin\Microsoft.ApplicationInsights.xml
+D:\GC Digital Mark\GCDM\TFS\Login TFS\Login TFS\Login TFS\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\GC Digital Mark\GCDM\TFS\Login TFS\Login TFS\Login TFS\obj\Debug\Login TFS.csproj.AssemblyReference.cache
+D:\GC Digital Mark\GCDM\TFS\Login TFS\Login TFS\Login TFS\obj\Debug\Login TFS.csproj.CoreCompileInputs.cache
+D:\GC Digital Mark\GCDM\TFS\Login TFS\Login TFS\Login TFS\obj\Debug\Login TFS.csproj.CopyComplete
+D:\GC Digital Mark\GCDM\TFS\Login TFS\Login TFS\Login TFS\obj\Debug\Login TFS.dll
+D:\GC Digital Mark\GCDM\TFS\Login TFS\Login TFS\Login TFS\obj\Debug\Login TFS.pdb

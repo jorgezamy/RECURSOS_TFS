@@ -1,0 +1,192 @@
+﻿html, body {
+    margin:0;
+    width:100%;
+    height:100%;
+    font-family:Calibri Light;
+    /*background-image:url(../images/background.png);*/
+    /*background-size:100%;*/
+    background: rgba(255,255,255,1);
+    background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(219,219,219,1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255,255,255,1)), color-stop(100%, rgba(219,219,219,1)));
+    background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(219,219,219,1) 100%);
+    background: -o-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(219,219,219,1) 100%);
+    background: linear-gradient(to bottom, rgba(255,255,255,1) 0%, rgba(219,219,219,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#dbdbdb', GradientType=0 );
+}
+
+.logo {
+    margin-top: 0.5%;
+    width: 15%;
+}
+
+#t1 {
+    font-size:28px;
+    font-weight:bold;
+    position:absolute;
+    left:2%;
+    bottom:3%;
+    color:#FFF;
+    cursor:default;
+    
+    /***** No select any text *****/
+    -webkit-user-select: none;  
+    -moz-user-select: none;    
+    -ms-user-select: none;      
+    user-select: none;
+    /***** End *****/
+    
+    z-index:2;
+}
+
+#contenedor {
+    /*width:56.8%;*/
+    height:500px;
+    margin:0% auto;
+    margin-left:0%;
+    text-align:center;
+    overflow:hidden;
+    /*border:dashed;*/
+    /*left:-2000pxKC;*/
+}
+
+#contenedor1 {
+    width: 85%;
+    margin: -2% auto;
+    text-align: center;
+    /*border:dashed;*/
+}
+
+#nombreUsuario {
+    position: absolute;
+    font-size: 19px;
+    font-weight: bold;
+    top: 5%;
+    right: 2%;
+}
+
+#titulo {
+    font-family: Calibri Light;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 2%;
+    display:block; 
+}
+
+.campoVacio {
+    color: red;
+    margin-right: 0%;
+}
+
+.mensaje_error {
+    color: red;
+    font-family: Calibri Light;
+    font-size: 17px;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 2%;
+}
+.mensaje_no_error {
+    color: green;
+    font-family: Calibri Light;
+    font-size: 17px;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 2%;
+}
+
+.btn_guardarCancelar {
+    /*width: 80px !important;*/
+    margin:0 auto;
+    font-family: Calibri Light;
+    font-size: 14px;
+    font-weight: bold;
+    background-color: darkgreen;
+    padding-top: 0.5% !important;
+    padding-bottom: 0.5% !important;
+    border-radius: 10px;
+    color: white;
+    outline: none;  
+    transition: 0.28s ease-in-out;
+    cursor: pointer;
+    z-index: 10;
+    display:block;
+    /*position:relative;*/
+    /*border:dashed;*/
+}
+
+    .btn_guardarCancelar:hover {
+        background-color: rgb(202,47,33);
+    }
+
+.campoVacio {
+    color: red;
+    margin-right: 0%;
+}
+
+/*.cerrar_sesion {
+    white-space:normal;  Poner el texto en dos lineas 
+    width:3.5%;
+    height:12%;
+    border-radius:50%;
+    padding-top:0.5%;
+    padding-bottom:1%;
+    box-shadow:0px 5px 10px black;
+    position:absolute;
+    right:44%;
+    bottom:1%;
+    z-index:3;
+    font-size:18px;
+    font-weight:bold;
+    font-family:Calibri Light;
+}
+
+    .cerrar_sesion:focus {
+        outline:none !important;
+    }*/
+
+.cerrar_sesion {
+    white-space: normal; /* Poner el texto en dos lineas */
+    width: 7%;
+    height: 12%;
+    border-radius: 50%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    box-shadow: 0px 5px 10px black;
+    position: absolute;
+    right: 1.5%;
+    bottom: 1%;
+    z-index: 3;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: Calibri Light;
+}
+
+    .cerrar_sesion:focus {
+        outline: none !important;
+    }
+
+/********************************************* Footer WebApp *************************************/
+.triangulo-equilatero-bottom-right {
+     width: 0%;
+     height: 0%;
+     border-right: 0em solid rgb(114,12,12);
+     border-top: 0em solid transparent;
+     border-left: 60em solid transparent;
+     border-bottom: 100px solid rgb(114,12,12);
+     position:absolute;
+     bottom:0;
+     right:0;
+     z-index:2;
+}
+
+.triangulo-equilatero-bottom-left {
+     width: 0%;
+     height: 0%;
+     border-right: 60em solid transparent;
+     border-top: 0em solid transparent;
+     border-left: 0em solid rgb(202,47,33);
+     border-bottom: 90px solid rgb(202,47,33);
+     position:absolute;
+     bottom:0;
+}
+/********************************************* Footer WebApp *************************************/

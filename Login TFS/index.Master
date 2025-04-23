@@ -1,0 +1,52 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="index.master.cs" Inherits="Login_TFS.index" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+
+    <title>GCDM</title>
+    
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+
+    <!-- Importing the CSS -->
+    <link rel="stylesheet" type="text/css" href="Content/css/Master.css" />
+    <link rel="stylesheet" type="text/css" href="Content/css/login.css" />
+    <link rel="stylesheet" type="text/css" href="Content/css/menu.css" />
+    <link rel="stylesheet" type="text/css" href="Content/css/tickets/tickets.css" />
+    <link rel="stylesheet" type="text/css" href="Content/css/tickets/tickets_crear.css" />
+    <link rel="stylesheet" type="text/css" href="Content/css/tickets/tickets_editar.css" />
+    <!-- End -->
+
+    <%--Importing the js--%> 
+    <script type="text/javascript" src="Content/js/TextBox_PresionarBtnEnter.js"></script>
+    <!-- End -->
+
+    <%--Importing the JQUERY --%>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <%-- End --%>
+
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        
+        <asp:Image ID="logo" ImageUrl="~/images/logo.png" CssClass="logo" runat="server" />
+
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        </asp:ContentPlaceHolder>
+
+        <!-- Background -->
+        <div class="triangulo-equilatero-bottom-right"></div>
+        <div class="triangulo-equilatero-bottom-left"></div>
+        <!-- End -->
+
+        <asp:Label runat="server" ID="t1" ClientIDMode="Static" Text="GCDM"></asp:Label>
+
+    </div>
+    </form>
+</body>
+</html>
